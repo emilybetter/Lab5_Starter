@@ -5,7 +5,6 @@ window.addEventListener('DOMContentLoaded', init);
 function init() {
   const synth = window.speechSynthesis;
 
-
   const img = document.querySelector("img");
   const selectElem = document.getElementById('voice-select');
   const textInput = document.getElementById('text-to-speak');
